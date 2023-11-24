@@ -7,11 +7,11 @@ async function bootstrap() {
   const app = await NestFactory.create<NestExpressApplication>(AppModule);
   app.useStaticAssets(join(__dirname, '..', 'client'));
   app.enableCors({
-    origin: ['http://localhost:3000'],
+    origin: ['http://localhost:8080'],
     methods: ['GET'],
     credentials: true,
   });
   app.setViewEngine('hbs');
-  await app.listen(5000);
+  await app.listen(8080);
 }
 bootstrap();
