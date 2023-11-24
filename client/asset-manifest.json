@@ -1,19 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.be134930.css",
-    "main.js": "/static/js/main.cb3c0230.js",
+    "main.css": "/static/css/main.de6fdc92.css",
+    "main.js": "/static/js/main.a014c90a.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/background.mp4": "/static/media/background.b2f4c490f93c1cf6dc8b.mp4",
-    "static/media/DropDownMenu.jpg": "/static/media/DropDownMenu.84137425c04104bcafa9.jpg",
-    "static/media/logo.png": "/static/media/logo.ff2799f77c55abf763f2.png",
+    "static/media/photo.png": "/static/media/photo.d33c13b97ce364b7a10d.png",
     "static/media/venafi-logo.png": "/static/media/venafi-logo.140809d5e28d0738e673.png",
+    "static/media/github.png": "/static/media/github.05f6c17b8cd04c28456f.png",
     "index.html": "/index.html",
-    "main.be134930.css.map": "/static/css/main.be134930.css.map",
-    "main.cb3c0230.js.map": "/static/js/main.cb3c0230.js.map",
+    "main.de6fdc92.css.map": "/static/css/main.de6fdc92.css.map",
+    "main.a014c90a.js.map": "/static/js/main.a014c90a.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.be134930.css",
-    "static/js/main.cb3c0230.js"
+    "static/css/main.de6fdc92.css",
+    "static/js/main.a014c90a.js"
   ]
 }
