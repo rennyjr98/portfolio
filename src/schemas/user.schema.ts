@@ -13,6 +13,8 @@ export class User {
   @Prop({ required: true })
   password: string;
   @Prop({ required: true })
+  portfolio: string;
+  @Prop({ required: true })
   frontEndSkills: string[];
   @Prop({ required: true })
   backEndSkills: string[];

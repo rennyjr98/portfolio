@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.de6fdc92.css",
-    "main.js": "/static/js/main.96cd7a8a.js",
+    "main.js": "/static/js/main.5f56ce1b.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/photo.png": "/static/media/photo.d33c13b97ce364b7a10d.png",
     "static/media/venafi-logo.png": "/static/media/venafi-logo.140809d5e28d0738e673.png",
     "static/media/github.png": "/static/media/github.05f6c17b8cd04c28456f.png",
     "index.html": "/index.html",
     "main.de6fdc92.css.map": "/static/css/main.de6fdc92.css.map",
-    "main.96cd7a8a.js.map": "/static/js/main.96cd7a8a.js.map",
+    "main.5f56ce1b.js.map": "/static/js/main.5f56ce1b.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.de6fdc92.css",
-    "static/js/main.96cd7a8a.js"
+    "static/js/main.5f56ce1b.js"
   ]
 }

@@ -13,6 +13,7 @@ export class UserService {
     return {
       _id: user._id,
       username: user.username,
+      portfolio: user.portfolio,
       frontEndSkills: user.frontEndSkills,
       backEndSkills: user.backEndSkills,
       techSkills: user.techSkills,
@@ -40,5 +41,14 @@ export class UserService {
   async findById(id: UUID): Promise<UserDto> {
     const user: User = await this.userModel.findById(id).exec();
     return this.parseToDto(user);
+  }
+
+  async updateUser(id: UUID, userDto: UserDto) {
+    const oldUser = await this.findById(id);
+    const oldUserDoc = new this.userModel(oldUser);
+    const updUser = await oldUserDoc.updateOne({
+      ...userDto,
+    });
+    return updUser;
   }
 }
