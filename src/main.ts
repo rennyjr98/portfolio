@@ -12,6 +12,7 @@ async function bootstrap() {
     credentials: true,
   });
   app.setViewEngine('hbs');
-  await app.listen(8080);
+  const port = process.env.PORT || 8080;
+  await app.listen(port);
 }
 bootstrap();
