@@ -17,6 +17,8 @@ export class Experience {
   @Prop()
   mainStack: boolean;
   @Prop()
+  category: string;
+  @Prop()
   yearsOfExperience: number;
 }
 

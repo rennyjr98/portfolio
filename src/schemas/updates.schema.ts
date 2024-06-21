@@ -14,6 +14,10 @@ export class Updates {
   description: string;
   @Prop()
   publishedTime: string;
+  @Prop()
+  imgPreview: string;
+  @Prop()
+  url?: string;
 }
 
 export const updatesSchema = SchemaFactory.createForClass(Updates);

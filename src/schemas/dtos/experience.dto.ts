@@ -3,5 +3,6 @@ export interface ExperienceDto {
   tech: string;
   details: string;
   mainStack: boolean;
+  category: string;
   yearsOfExperience: number;
 }

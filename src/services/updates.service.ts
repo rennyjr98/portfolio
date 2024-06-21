@@ -14,6 +14,8 @@ export class UpdatesService {
       title: update.title,
       description: update.description,
       publishedTime: update.publishedTime,
+      imgPreview: update.imgPreview,
+      url: update.url,
     } as UpdatesDto;
   }
 

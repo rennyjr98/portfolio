@@ -7,7 +7,6 @@ import { Experience } from "src/schemas/experience.schema";
 
 @Injectable()
 export class ExperienceService {
-  private n: number = 0;
   constructor(@InjectModel(Experience.name) private experienceModel: Model<Experience>) {}
 
   private getDto(experience: Experience): ExperienceDto {
@@ -17,6 +16,7 @@ export class ExperienceService {
       details: experience.details,
       mainStack: !!experience.mainStack,
       yearsOfExperience: experience.yearsOfExperience,
+      category: experience.category,
     } as ExperienceDto;
   }
 
